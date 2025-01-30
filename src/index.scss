@@ -1,0 +1,70 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  font-weight: 400;
+  color: #ffffff;
+  scroll-behavior: smooth;
+  background-color: #211f2d;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+}
+
+.container {
+  max-width: 320px;
+  padding: 10px 8px;
+  margin: 0 auto;
+}
+
+.main-title {
+  margin-top: 18px;
+  margin-bottom: 16px;
+  margin-left: -8px;
+  font-size: 40px;
+  font-weight: 400;
+  text-align: center;
+  word-break: break-all;
+}
+
+.main__spinner-container {
+  max-width: 50px;
+  margin: auto;
+}
+
+.main__section-player {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  padding-left: 3px;
+}
+
+.main__section-tournaments {
+  margin-top: 10px;
+}
+
+.tournaments__list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
